@@ -1,0 +1,110 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    line-height: 1.6;
+}
+
+.hero {
+    background-color: #10b981;
+    color: white;
+    text-align: center;
+    padding: 60px 20px;
+}
+.badge {
+    background: #065f46;
+    padding: 5px 12px;
+    border-radius: 15px;
+    font-size: 0.85rem;
+}
+.hero h1 {
+    font-size: 2.5rem;
+    margin: 10px 0;
+}
+.btn-enlace {
+    display: inline-block;
+    background: white;
+    color: #10b981;
+    padding: 10px 20px;
+    margin-top: 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.seccion {
+    padding: 40px 20px;
+    text-align: center;
+    max-width: 600px;
+    margin: 0 auto;
+}
+.fondo-claro {
+    background-color: #f8fafc;
+    width: 100%;
+    max-width: 100%;
+}
+
+.tarjeta-app {
+    background: white;
+    border: 2px solid #10b981;
+    padding: 20px;
+    border-radius: 8px;
+    margin: 20px auto;
+    max-width: 400px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+
+.lista-beneficios {
+    list-style: none;
+    padding: 0;
+    text-align: left;
+    display: inline-block;
+}
+.lista-beneficios li {
+    margin: 10px 0;
+    font-size: 1.1rem;
+}
+.tech-tags span {
+    background: #e2e8f0;
+    padding: 8px 15px;
+    margin: 5px;
+    border-radius: 5px;
+    display: inline-block;
+    font-weight: bold;
+}
+
+
+.cta {
+    background: #0f172a;
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+}
+button {
+    background-color: #10b981;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+button:hover {
+    background-color: #059669;
+}
+#mensaje-salida, #mensaje-cta {
+    margin-top: 10px;
+    font-weight: bold;
+    color: #059669;
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+    background: #020617;
+    color: #94a3b8;
+    font-size: 0.9rem;
+}
